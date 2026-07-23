@@ -1,0 +1,79 @@
+Rank,Candidate,Filename,Final Score,Semantic Score,Skill Match Score,Experience Score,Education Score,Matched Skills,Missing Skills,AI Reasoning
+1,Rohan Das,Rohan_Das.txt,66.19,70.05,55.56,70.0,75.0,"docker, fastapi, git, linux, python","aws, flask, postgresql, sql","**Strengths:**
+Rohan Das has relevant experience as a Backend Engineer and demonstrated skills in Python, FastAPI, REST API, and Docker. He also has experience with Git for version control.
+
+**Gaps:**
+Rohan Das lacks experience with Flask, SQL, and PostgreSQL, which are required skills for the position. His education is a B.Tech in Information Science, which meets the job requirements.
+
+**Recommendation:**
+Consider for Interview
+
+Rohan Das has some relevant experience and skills, but lacks a few key skills required for the position. A human review would be necessary to assess his potential fit for the role and determine if his missing skills can be developed or if additional training is required."
+2,Meera Joshi,Meera_Joshi.txt,65.81,60.29,55.56,100.0,90.0,"docker, git, linux, python, sql","aws, fastapi, flask, postgresql","**Strengths:**
+Meera Joshi has relevant experience as a Senior Data Scientist with skills in Python, SQL, Git, Docker, and Linux. Her experience in building scalable software applications and developing APIs aligns with the job requirements.
+
+**Gaps:**
+Meera Joshi lacks direct experience with Flask or FastAPI, which are required for the job. Her education is an M.Sc in Data Science, which is not explicitly mentioned in the job description as a requirement.
+
+**Recommendation:**
+Consider for Interview
+
+Meera Joshi's experience and skills are mostly aligned with the job requirements, but her lack of direct experience with Flask or FastAPI is a concern. A human review would be necessary to assess her potential fit for the role."
+3,Priya Nair,Priya_Nair.txt,58.28,57.89,44.44,85.0,75.0,"aws, docker, git, sql","fastapi, flask, linux, postgresql, python","**Strengths:**
+Priya Nair has relevant experience as a Backend Developer and has demonstrated skills in SQL, Docker, AWS, and Git. She has also shown experience in building scalable software applications and developing APIs.
+
+**Gaps:**
+Priya Nair lacks direct experience with Python, Flask, FastAPI, and Linux, which are essential for the Python Backend Developer role. Her technical skills are primarily in Java and Spring Boot, which may require additional training or experience to adapt to the required Python skills.
+
+**Recommendation:**
+Consider for Interview
+
+Priya Nair's experience and skills in related areas make her a potential candidate, but she would benefit from additional training or experience in Python, Flask, FastAPI, and Linux to meet the job requirements."
+4,Aarav Sharma,Aarav_Sharma.txt,56.47,57.27,44.44,70.0,75.0,"git, linux, python, sql","aws, docker, fastapi, flask, postgresql","**Strengths:**
+Aarav has relevant experience as a Software Engineer and has demonstrated skills in Python, SQL, and Git. He has also worked on scalable software applications and developed APIs.
+
+**Gaps:**
+Aarav lacks experience with Flask or FastAPI, which are required for the job. Additionally, his resume does not mention Docker, AWS, or PostgreSQL, which are preferred skills.
+
+**Recommendation:**
+Consider for Interview
+
+Aarav's relevant experience and skills make him a suitable candidate for the position. However, his lack of experience with specific technologies required for the job may require additional training or support. A human review would be necessary to assess his fit for the role and determine if additional training would be feasible."
+5,Ananya Rao,Ananya_Rao.txt,54.91,57.15,44.44,55.0,75.0,"git, postgresql, python, sql","aws, docker, fastapi, flask, linux","Strengths:
+Ananya Rao has experience in software development and AI solutions, and has built scalable software applications using Python and PostgreSQL. She also has experience with Git for version control.
+
+Gaps:
+Ananya Rao lacks experience with Flask or FastAPI, Docker, and AWS, which are required skills for the position. Her experience with Azure is not directly relevant to the job description.
+
+Recommendation: Consider for Interview
+
+Explanation: Ananya Rao's technical skills and experience match some of the required skills, but she is missing key skills such as Flask or FastAPI and Docker. A human review would be necessary to assess her potential fit for the position and to discuss her experience and skills in more detail."
+6,Rahul Verma,Rahul_Verma.txt,50.39,54.78,33.33,55.0,75.0,"git, python, sql","aws, docker, fastapi, flask, linux, postgresql","Strengths:
+Rahul Verma has experience as a Data Analyst and has developed APIs and automation tools. He has also used Git for version control.
+
+Gaps:
+Rahul Verma lacks experience with Flask or FastAPI, Docker, AWS, Linux, and PostgreSQL, which are required or preferred skills for the job. His education is in Data Science, not Computer Science or a related field.
+
+Recommendation: Consider for Interview
+
+Explanation: Rahul Verma has some relevant experience and skills, but significant gaps in required and preferred skills for the job. A human review would be necessary to assess his potential fit for the position."
+7,Neha Gupta,Neha_Gupta.txt,47.64,49.94,22.22,85.0,75.0,"docker, git","aws, fastapi, flask, linux, postgresql, python, sql","Strengths:
+Neha Gupta has experience as a software engineer and has used Git for version control. She also has skills in Docker.
+
+Gaps:
+Neha Gupta lacks experience with Python, SQL, Flask/FastAPI, and Linux, which are required skills for the job. Her technical skills listed on the resume do not match the job description.
+
+Recommendation: 
+Consider for Interview
+
+Explanation: 
+While Neha Gupta has some relevant skills and experience, she is missing key skills required for the job. A human review would be necessary to assess her potential fit for the role and determine if she can learn the necessary skills."
+8,Karan Mehta,Karan_Mehta.txt,45.56,48.78,22.22,70.0,75.0,"git, python","aws, docker, fastapi, flask, linux, postgresql, sql","Strengths:
+Karan Mehta has experience as an AI Engineer and has developed scalable software applications using Python and Git. He has also demonstrated his ability to work with APIs and automation tools.
+
+Gaps:
+Karan Mehta lacks experience with Flask/FastAPI, SQL database design, and Linux, which are required skills for the Python Backend Developer position. He also has unverified skills in Docker, AWS, PostgreSQL, and OOP.
+
+Recommendation: Consider for Interview
+
+Explanation: Karan Mehta has relevant experience and skills, but some key skills are missing or unverified. A human review would be necessary to assess his potential fit for the position."

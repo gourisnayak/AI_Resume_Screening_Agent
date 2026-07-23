@@ -4,8 +4,6 @@ An AI-powered resume screening application that automatically evaluates and rank
 
 Developed as part of the **Rooman Technologies 24-Hour AI Agent Challenge**, this project helps recruiters streamline the initial candidate screening process by combining deterministic scoring with Large Language Model (LLM) insights.
 
----
-
 ## 📌 Project Overview
 
 Traditional resume screening is time-consuming and subjective. This application automates the first stage of recruitment by analyzing resumes and comparing them against a given job description.
@@ -24,7 +22,7 @@ The final ranking is based on a weighted scoring system, while the LLM provides 
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 ## Resume Processing
 
@@ -64,7 +62,7 @@ The final ranking is based on a weighted scoring system, while the LLM provides 
 
 ---
 
-# 🏗️ System Architecture
+## 🏗️ System Architecture
 
 The application follows a modular pipeline:
 
@@ -95,18 +93,13 @@ The application follows a modular pipeline:
 
 ### Workflow
 
-1. The recruiter enters a job description.
-2. Multiple resumes are uploaded.
-3. The parser extracts text from each resume.
-4. Skills, education, and experience are identified.
-5. Each resume is scored using the weighted evaluation model.
-6. Candidates are ranked based on the final score.
-7. Groq generates recruiter-friendly explanations.
-8. Results are displayed in the Streamlit dashboard and exported as CSV or JSON.
+1. Enter the job description.
+2. Upload one or more resumes.
+3. The system extracts candidate information and computes scores.
+4. Candidates are ranked and AI explanations are generated.
+5. Download the results as CSV or JSON.
 
-   ---
-
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 The project is built using the following technologies:
 
@@ -119,10 +112,9 @@ The project is built using the following technologies:
 - **python-dotenv** – Environment variable management
 - **CSV & JSON** – Exporting ranked candidate data
 
-   ---
-
 ## 📁 Project Structure
 
+```text
 ResumeScreeningAI/
 │
 ├── app.py
@@ -131,17 +123,106 @@ ResumeScreeningAI/
 ├── .env.example
 ├── .gitignore
 │
-├── src/
-│   ├── parser.py
-│   ├── scorer.py
-│   ├── skills.py
-│   ├── llm.py
-│   └── __init__.py
+├── assets/
+│   ├── home.png
+│   ├── ranking.png
+│   ├── candidate_details.png
+│   └── export.png
 │
 ├── data/
 │   ├── job_descriptions/
 │   └── resumes/
 │
-└── outputs/
+├── outputs/
+│   ├── ranked_candidates.csv
+│   └── ranked_candidates.json
+│
+└── src/
+    ├── parser.py
+    ├── scorer.py
+    ├── skills.py
+    ├── llm.py
+    └── __init__.py
+```
 
-   ---
+## ⚙️ Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/AI-Resume-Screening-Agent.git
+cd AI-Resume-Screening-Agent
+```
+
+### Create a virtual environment
+
+**Windows**
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+**Linux / macOS**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+## 🔑 Environment Setup
+
+Create a `.env` file in the project root using the provided `.env.example` template.
+
+Add your Groq API key:
+
+```env
+GROQ_API_KEY=your_groq_api_key
+```
+## ▶️ Running the Application
+
+Start the Streamlit application using:
+
+```bash
+streamlit run app.py
+```
+
+Once the application starts, open the local URL displayed in the terminal (typically `http://localhost:8501`).
+
+### Using the Application
+
+1. Paste the job description into the input box.
+2. Upload one or more resumes (PDF, DOCX, or TXT).
+3. (Optional) Enable AI-generated candidate analysis.
+4. Click **Analyze & Rank Candidates**.
+5. Review the ranked candidates and download the results as CSV or JSON.
+
+## 📸 Application Screenshots
+
+### Home Screen
+
+![Home Screen](assets/home.png)
+
+### Candidate Ranking
+
+![Candidate Ranking](assets/ranking.png)
+
+### Candidate Details
+
+![Candidate Details](assets/candidate_details.png)
+
+## 🚀 Future Improvements
+
+Although the current system effectively automates resume screening, there are several opportunities to enhance its capabilities in future versions:
+
+- Support OCR for scanned and image-based resumes.
+- Improve skill extraction using advanced NLP and Named Entity Recognition (NER) models.
+- Allow recruiters to customize scoring weights based on job requirements.
+- Integrate a database to store candidate profiles and screening history.
+- Deploy the application to a cloud platform for public access.
+- Add authentication and role-based access for recruiters.

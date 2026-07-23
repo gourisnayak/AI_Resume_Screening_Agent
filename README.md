@@ -150,8 +150,8 @@ ResumeScreeningAI/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/AI-Resume-Screening-Agent.git
-cd AI-Resume-Screening-Agent
+git clone https://github.com/gourisnayak/AI_Resume_Screening_Agent.git
+cd AI_Resume_Screening_Agent
 ```
 
 ### Create a virtual environment
@@ -177,12 +177,15 @@ pip install -r requirements.txt
 ```
 ## 🔑 Environment Setup
 
-Create a `.env` file in the project root using the provided `.env.example` template.
+## 🔑 Environment Setup
 
-Add your Groq API key:
+Create a `.env` file in the project root by copying `.env.example`.
 
 ```env
 GROQ_API_KEY=your_groq_api_key
+```
+
+Replace `your_groq_api_key` with your own Groq API key.
 ```
 ## ▶️ Running the Application
 

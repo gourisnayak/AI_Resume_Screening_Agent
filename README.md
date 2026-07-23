@@ -177,8 +177,6 @@ pip install -r requirements.txt
 ```
 ## 🔑 Environment Setup
 
-## 🔑 Environment Setup
-
 Create a `.env` file in the project root by copying `.env.example`.
 
 ```env
